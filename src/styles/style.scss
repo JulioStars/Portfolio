@@ -1,0 +1,225 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #272727;
+}
+
+.navbar {
+    border-bottom: 1px solid #fff;
+    background-color: #272727;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+
+    h1 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    a {
+        color: #fff;
+        font-weight: bold;
+
+        &:hover {
+            color: #aaa;
+        }
+    }
+
+    button {
+        background-color: #fff;
+    }
+}
+
+.sobre-mim {
+
+    .apresentacao {
+        
+        p {
+            font-weight: bold;
+            background: linear-gradient(134deg, #3BF686 50.52%, #4CA9FF 89.58%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .biografia {
+        color: #fff;
+        .eu {
+            img {
+                height: 155px;
+                border-radius: 50%;
+                border: 3px solid #fff;
+            }
+
+            .text {
+                
+                h1 {
+                    font-size: 28px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .conexoes {
+            h2 {
+                font-size: 28px;
+            }
+
+            .midias-sociais {
+
+                li {
+                    list-style: none;
+
+                    a {
+                        font-size: 32px;
+                        color: #4CA9FF;
+                        transition: linear 0.3s;
+
+                        &:hover {
+                            color: #3BF686;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.o-que-eu-faco {
+    color: #fff;
+
+    .text {
+        h1 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 18px;
+
+            #Designer {
+                color: #3BF686;
+                font-weight: bold;
+            }
+
+            #Desenvolvedor {
+                color: #4CA9FF;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#card-ux-ui {
+    background-color: #3BF686;
+}
+
+#card-front-end {
+    background-color: #4CA9FF;
+}
+
+#imagem-card {
+    height: 40px;
+    margin-top: 16px;
+}
+
+.meus-projetos {
+    color: #fff;
+
+    .projeto {
+
+        h1 {
+            font-size: 48px;
+        }
+    
+        h2 {
+            font-size: 18px;
+            color: #DEDEDE;
+        }
+    
+        h3 {
+            font-size: 48px;
+            color: #fff;
+        }
+    
+        p {
+            font-size: 18px;
+            color: #D4D4D4;
+        }
+
+        .botao-card {
+            background-color: #3BF686;
+            color: #000;
+            font-weight: bold;
+            transition: linear 0.3s;
+
+            &:hover {
+                background-color: #4CA9FF;
+            }
+        }
+    }
+
+    .botao {
+        border: 2px solid #4CA9FF;
+        color: #fff;
+        font-weight: bold;
+        transition: linear 0.3s;
+
+        &:hover {
+            background-color: #4CA9FF;
+            color: #000;
+        }
+    }
+}
+
+footer {
+    color: #fff;
+    border-top: 1px solid #fff;
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .links {
+        list-style: none;
+
+        a {
+            font-size: 32px;
+            color: #4CA9FF;
+            transition: linear 0.3s;
+
+            &:hover {
+                color: #3BF686;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .meus-projetos {
+        .projeto {
+            img {
+                width: 600px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .meus-projetos {
+        .projeto {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

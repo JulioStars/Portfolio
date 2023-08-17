@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+    <link rel="stylesheet" href="./public/styles/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="./public/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="m-0 section-title">Portfólio</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-mim" class="nav-link">
+                            <i class="bi bi-file-earmark-person"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./projects.html" class="nav-link">
+                            <i class="bi bi-gear-wide"></i>
+                            Meus projetos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre-mim" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale comigo
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="mt-5 mb-5" id="sobre-mim">
+        <div class="container">
+            <div class="sobre-mim d-flex flex-column-reverse flex-sm-column-reverse flex-md-column-reverse flex-lg-column">
+                <div class="apresentacao mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+                    <p class="fs-1 text-center text-sm-center text-md-center text-lg-start">
+                        Olá, sou o Julio, entusiasta de tecnologia e apaixonado por criar interfaces elegantes e funcionais que proporcionem uma ótima experiência ao usuário.
+                    </p>
+                </div>
+                <div class="biografia d-lg-flex text-center text-sm-center text-md-center text-lg-start mb-lg-5 mt-lg-5 mt-md-5">
+                    <div class="eu d-lg-flex align-items-center">
+                        <img src="./src/images/foto pessoal.png" alt="Uma foto minhas mas em uma versão computadorizada">
+                        <div class="text ms-4">
+                            <h1 class="mt-3 mt-sm-3 mt-md-3 mt-lg-0">Biografia</h1>
+                            <p>
+                                Perfil multidisciplinar, colaborativo e capaz de trabalhar em equipe. Tenho habilidades sólidas em pesquisa de usuários, análise de dados e prototipagem.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="conexoes ms-sm-0 ms-md-0 ms-lg-5 w-100">
+                        <h2 class="d-none d-sm-none d-md-none d-lg-flex">Vamos nos conectar</h2>
+                        <div class="midias-sociais d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start">
+                            <li>
+                                <a href="https://www.instagram.com/digital.cosmico/">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="ms-3 me-3">
+                                <a href="https://www.linkedin.com/in/julio-cesar-silva-freitas/">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/JulioStars">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5" id="o-que-eu-faco">
+        <div class="container">
+            <div class="o-que-eu-faco d-flex flex-column flex-sm-column flex-md-column align-items-center flex-lg-row justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-between">
+                <div class="text text-center text-sm-center text-md-center text-lg-start">
+                    <h1>O que eu faço</h1>
+                    <p>
+                        Sou um <span id="Designer">designer Junior de UX/UI</span> com habilidades em <span id="Desenvolvedor">Front-end</span>. Minha função é criar experiências digitais amigáveis e atraentes. Desenvolvo a estrutura e a aparência visual dos produtos, garantindo que sejam fáceis de usar e visualmente agradáveis. Além disso, posso transformar os designs em código, tornando a visão do design uma realidade funcional.
+                    </p>
+                </div>
+                <div class="cards justify-content-center d-flex flex-column flex-sm-column flex-md-column flex-lg-row h-25 ms-0 ms-sm-0 ms-md-0 ms-lg-5 mt-4 mt-sm-4 mt-md-4 mt-lg-0">
+                    <div class="card" style="width: 18rem;" id="card-ux-ui">
+                        <img src="./src/images/svgs/imagem de design.svg" class="card-img-top" id="imagem-card" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">UX/UI Designer</h5>
+                            <p class="card-text">Eu projeto a aparência e a experiência de uso de produtos digitais, como aplicativos, sites e softwares, tornando-os visualmente atraentes e fáceis de usar.</p>
+                        </div>
+                    </div>
+                    <div class="card ms-0 ms-sm-0 ms-md-0 ms-lg-4 mt-4 mt-sm-4 mt-md-4 mt-lg-0" style="width: 18rem;" id="card-front-end">
+                        <img src="./src/images/svgs/imagem de codigo.svg" class="card-img-top" id="imagem-card" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Desenvolvedor Front-end</h5>
+                            <p class="card-text">Com conhecimentos em programação, posso fazer com que meus designs possam virar realidade, dando uma noção melhor da interface para o usuário.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 mb-5" id="meus-projetos">
+        <div class="container">
+            <div class="meus-projetos">
+                <h1 class="mb-5">Projetos principais</h1>
+                <div class="projetos d-flex flex-column">
+                    <div class="projeto d-flex mb-5 flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-column flex-xxl-row">
+                        <img class="me-3 rounded" src="./src/images/projeto rotinas.png" alt="Capa da imagem do projeto aplciativo de rotinas">
+                        <div class="sobre-tudo">
+                            <h2 class="mb-3 mt-3 mt-sm-3 mt-md-3 mt-lg-3 mt-xl-3 mt-xxl-0">UX/UI</h2>
+                            <h3 class="fs-1">Daily: Aplicativo de rotinas</h3>
+                            <p class="mb-4">
+                                Ao mergulhar no desafiador mundo do design de experiência do usuário (UX), embarquei em uma jornada de criação e aprimoramento para desenvolver um aplicativo que atendesse às necessidades e expectativas dos usuários. Compartilho aqui o processo detalhado, desde o contato inicial com os futuros usuários até a criação de um protótipo envolvente e responsivo.
+                            </p>
+                            <a class="btn botao-card btn-lg" role="button" href="https://medium.com/@empreendimentocesar/desenvolvendo-um-aplicativo-de-rotinas-da-ideia-ao-protótipo-interativo-67f9152d35f7">Ver projeto</a>
+                        </div>
+                    </div>
+                    <div class="projeto d-flex mb-5 flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-column flex-xxl-row">
+                        <img class="me-3 rounded" src="./src/images/projeto pix na sumup 2.png" alt="Capa da imagem do projeto aplciativo de rotinas">
+                        <div class="sobre-tudo">
+                            <h2 class="mb-3 mt-3 mt-sm-3 mt-md-3 mt-lg-3 mt-xl-3 mt-xxl-0">UX/UI</h2>
+                            <h3 class="fs-1">E-mail e Landing page sobre o PIX na SumUp</h3>
+                            <p class="mb-4">
+                                A landing page e o e-mail tem o objetivo de informar ao cliente SumUp sobre o funcionamento do Pix e como adequá-lo ao seu negócio, e também explorar o Pix como alavancador do negócio do pequeno comerciante com baixo letramento digital.
+                            </p>
+                            <a class="btn botao-card btn-lg" role="button" href="https://medium.com/@empreendimentocesar/desvendando-o-processo-criativo-design-de-interfaces-para-sumup-e-pix-89cd9a651a1e">Ver projeto</a>
+                        </div>
+                    </div>
+                    <div class="projeto d-flex mb-5 flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-column flex-xxl-row">
+                        <img class="me-3 rounded" src="./src/images/Projeto Movexel.png" alt="Capa da imagem do projeto aplciativo de rotinas">
+                        <div class="sobre-tudo">
+                            <h2 class="mb-3 mt-3 mt-sm-3 mt-md-3 mt-lg-3 mt-xl-3 mt-xxl-0">UX/UI</h2>
+                            <h3 class="fs-1">Movexel: Aplicativo de catálogo de jogos digitais</h3>
+                            <p class="mb-4">
+                                Um aplicativo que funciona como um catálogo completo de jogos, onde os usuários podem pesquisar e encontrar informações sobre diferentes jogos, como descrições, imagens, vídeos, notícias e avaliações.
+                            </p>
+                            <a class="btn botao-card btn-lg" role="button" href="https://medium.com/@empreendimentocesar/criando-um-app-de-catálogo-de-jogos-uma-jornada-de-design-ux-ui-bfc5f262bd6">Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn botao-card btn-lg botao" role="button" href="./projects.html">Ver mais projetos</a>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-5" id="rodape contato">
+        <div class="container">
+            <div class="contato d-flex flex-column align-items-center">
+                <h1 class="mb-4 mt-5">Faça contato comigo</h1>
+                <div class="links d-flex mb-5">
+                    <li>
+                        <a href="https://www.instagram.com/digital.cosmico/">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3 me-3">
+                        <a href="https://www.linkedin.com/in/julio-cesar-silva-freitas/">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/JulioStars">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                </div>
+                <h2>&copy; Julio Cesar Silva Freitas</h2>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./public/script/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
