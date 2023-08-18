@@ -114,6 +114,28 @@ body {
     }
 }
 
+#UXUI {
+    background-color: #3BF686;
+    border-radius: 24px;
+    .card-icon {
+        padding: 24px;
+        img {
+            height: 32px;
+        }
+    }
+}
+
+#front-end {
+    background-color: #4CA9FF;
+    border-radius: 24px;
+    .card-icon {
+        padding: 24px;
+        img {
+            height: 32px;
+        }
+    }
+}
+
 #card-ux-ui {
     background-color: #3BF686;
 }

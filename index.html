@@ -24,19 +24,13 @@
                     <li class="nav-item">
                         <a href="#sobre-mim" class="nav-link">
                             <i class="bi bi-file-earmark-person"></i>
-                            Sobre
+                            Menu
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/projects.html" class="nav-link">
+                        <a href="#meus-projetos" class="nav-link">
                             <i class="bi bi-gear-wide"></i>
                             Meus projetos
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#sobre-mim" class="nav-link">
-                            <i class="bi bi-chat-left-text me-1"></i>
-                            Fale comigo
                         </a>
                     </li>
                 </ul>
@@ -87,26 +81,34 @@
     </section>
     <section class="mt-5" id="o-que-eu-faco">
         <div class="container">
-            <div class="o-que-eu-faco d-flex flex-column flex-sm-column flex-md-column align-items-center flex-lg-row justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-between">
-                <div class="text text-center text-sm-center text-md-center text-lg-start">
+            <div class="o-que-eu-faco d-flex flex-column flex-sm-column flex-md-column align-items-center flex-lg-column flex-xl-row justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-between">
+                <div class="text text-center text-sm-center text-md-center text-lg-center text-xl-start">
                     <h1>O que eu faço</h1>
                     <p>
                         Sou um <span id="Designer">designer Junior de UX/UI</span> com habilidades em <span id="Desenvolvedor">Front-end</span>. Minha função é criar experiências digitais amigáveis e atraentes. Desenvolvo a estrutura e a aparência visual dos produtos, garantindo que sejam fáceis de usar e visualmente agradáveis. Além disso, posso transformar os designs em código, tornando a visão do design uma realidade funcional.
                     </p>
                 </div>
-                <div class="cards justify-content-center d-flex flex-column flex-sm-column flex-md-column flex-lg-row h-25 ms-0 ms-sm-0 ms-md-0 ms-lg-5 mt-4 mt-sm-4 mt-md-4 mt-lg-0">
-                    <div class="card" style="width: 18rem;" id="card-ux-ui">
-                        <img src="./src/images/svgs/imagem de design.svg" class="card-img-top" id="imagem-card" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">UX/UI Designer</h5>
-                            <p class="card-text">Eu projeto a aparência e a experiência de uso de produtos digitais, como aplicativos, sites e softwares, tornando-os visualmente atraentes e fáceis de usar.</p>
+                <div class="cards justify-content-center d-flex flex-column flex-sm-row flex-md-row flex-lg-row flex-xl-row h-25 ms-0 ms-sm-0 ms-md-0 ms-lg-5 mt-4 mt-sm-4 mt-md-4 mt-lg-0">
+                    <div id="UXUI" class="card d-flex flex-column align-items-center text-center ps-3 pe-3">
+                        <div class="card-icon">
+                            <img src="/src/images/svgs/imagem de design.svg" alt="Icone do card">
+                        </div>
+                        <div>
+                            <h2 class="fs-5">UX/UI Designer</h2>
+                            <p class="fs-6">
+                                Eu projeto a aparência e a experiência de uso de produtos digitais, como aplicativos, sites e softwares, tornando-os visualmente atraentes e fáceis de usar.
+                            </p>
                         </div>
                     </div>
-                    <div class="card ms-0 ms-sm-0 ms-md-0 ms-lg-4 mt-4 mt-sm-4 mt-md-4 mt-lg-0" style="width: 18rem;" id="card-front-end">
-                        <img src="./src/images/svgs/imagem de codigo.svg" class="card-img-top" id="imagem-card" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Desenvolvedor Front-end</h5>
-                            <p class="card-text">Com conhecimentos em programação, posso fazer com que meus designs possam virar realidade, dando uma noção melhor da interface para o usuário.</p>
+                    <div id="front-end" class="card d-flex flex-column align-items-center text-center ps-3 pe-3 ms-sm-3 mt-3 mt-sm-0 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0">
+                        <div class="card-icon">
+                            <img src="/src/images/svgs/imagem de codigo.svg" alt="Icone do card">
+                        </div>
+                        <div>
+                            <h2 class="fs-5">Desenvolvedor Front-end</h2>
+                            <p class="fs-6">
+                                Com conhecimentos em programação, posso fazer com que meus designs possam virar realidade, dando uma noção melhor da interface para o usuário.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +118,7 @@
     <section class="mt-5 mb-5" id="meus-projetos">
         <div class="container">
             <div class="meus-projetos">
-                <h1 class="mb-5">Projetos principais</h1>
+                <h1 class="mb-5">Projetos</h1>
                 <div class="projetos d-flex flex-column">
                     <div class="projeto d-flex mb-5 flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-column flex-xxl-row">
                         <img class="me-3 rounded" src="./src/images/projeto rotinas.png" alt="Capa da imagem do projeto aplciativo de rotinas">
@@ -152,7 +154,6 @@
                         </div>
                     </div>
                 </div>
-                <a class="btn botao-card btn-lg botao" role="button" href="/projects.html">Ver mais projetos</a>
             </div>
         </div>
     </section>

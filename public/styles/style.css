@@ -81,6 +81,28 @@ body {
   font-weight: bold;
 }
 
+#UXUI {
+  background-color: #3BF686;
+  border-radius: 24px;
+}
+#UXUI .card-icon {
+  padding: 24px;
+}
+#UXUI .card-icon img {
+  height: 32px;
+}
+
+#front-end {
+  background-color: #4CA9FF;
+  border-radius: 24px;
+}
+#front-end .card-icon {
+  padding: 24px;
+}
+#front-end .card-icon img {
+  height: 32px;
+}
+
 #card-ux-ui {
   background-color: #3BF686;
 }
